@@ -10,7 +10,13 @@ func sum(numbers ...int) int{
 	return r
 }
 
+func square(n int) int {
+	return n*n
+}
+
 func main(){
+		
+
 	//var inhaArray [7] string //array
 	var inhaSlice [] string //slice
 	inhaSlice = make([]string, 7)
